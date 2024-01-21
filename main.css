@@ -1,5 +1,4 @@
 /* setup ---------------------------------------------*/
-@import url('http://fonts.googleapis.com/css?family=Philosopher&subset=cyrillic');
 *,
 *::after,
 *::before{padding: 0;
@@ -34,8 +33,7 @@ img {
     border-radius: 70%;
     max-width: 900px;
   }
-  .page{
-    
+  .page{margin: 0 auto;
      background-image: url("https://img.freepik.com/free-vector/beautiful-watercolor-background_23-2148486848.jpg?size=626&ext=jpg&ga=GA1.1.632798143.1705449600&semt=ais");
     background-size: cover;
     }
@@ -45,8 +43,6 @@ img {
     }
     .nav{
         
-        font-family: serif;
-    font-weight: bold;
         text-align: center;
         background-image: url(https://chelyabinsk.oboitd.ru/images/goods/big/20200129094216_Cvety_6-094.jpg);
     }
@@ -73,13 +69,20 @@ background-image: url(https://chelyabinsk.oboitd.ru/images/goods/big/20200129094
         
         text-align: center ;
         background-image: url(https://chelyabinsk.oboitd.ru/images/goods/big/20200129094216_Cvety_6-094.jpg);
-    font-size: 20px
-}
+    font-size: 20px;
 
-nav{font-family: monospace;
-    font-size: 26px;
-    line-height: 34px;
-    margin: 0 auto;
-    color:aquamarine;}
-.page{color:green;}
+    }
+    .nav3 li{
+        
+        font-size: 20px;
+        display: inline-block;
+        margin-left: 50px;
+        color:inherit;}
+
+ nav{font-family: monospace;
+        font-size: 26px;
+        line-height: 34px;
+        margin: 0 auto;
+        color:aquamarine;}
+    .page{color:green;}
 
