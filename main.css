@@ -76,8 +76,10 @@ background-image: url(https://chelyabinsk.oboitd.ru/images/goods/big/20200129094
     font-size: 20px
 }
 
-.nav{font-family: monospace;
+nav{font-family: monospace;
     font-size: 26px;
     line-height: 34px;
     margin: 0 auto;
     color:aquamarine;}
+.page{color:green;}
+
